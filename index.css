@@ -1,0 +1,8 @@
+.container {
+    padding-inline: 50px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}

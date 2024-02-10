@@ -7,16 +7,25 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header style="margin-bottom: 24px;">
+    <header style="margin-bottom: 24px">
       <div
-        class="container"
+        class="header-container"
         style="display: flex; justify-content: space-between"
       >
         <div style="display: flex; gap: 24px">
           <div>logo</div>
           <div>
             <nav>
-              <ul class="nav-links" style="display: flex; gap: 24px; list-style: none; padding: 0; margin: 0;">
+              <ul
+                class="nav-links"
+                style="
+                  display: flex;
+                  gap: 24px;
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+                "
+              >
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
@@ -26,34 +35,76 @@
           </div>
         </div>
         <div>
-            <button style="background-color: transparent; border: none;">Sign In</button>
-            <button style="background-color: transparent; border: none;">Sign Up</button>
+          <button style="background-color: transparent; border: none">
+            Sign In
+          </button>
+          <button style="background-color: transparent; border: none">
+            Sign Up
+          </button>
         </div>
       </div>
     </header>
     <main>
-        <section>
-            <div class="container" style="display: flex; gap: 24px; align-items: center;">
-                <div style="width: 50%">
-                    <h1>
-                        Rent payments on your custom schedule.
-                    </h1>
-                    <p>
-                        Rent payments on your custom schedule.
-                    </p>
-                    <div style="display: flex; gap: 24px; align-items: center;">
-                        <div>photo</div>
-                        <div>
-                            <h6 style="color: blue; margin: 0; font-size: 1rem; margin-bottom: 12px;">We do the math for you</h6>
-                            <p style="margin: 0;">We do the math for you</p>
-                        </div>
-                    </div>
-                </div>
-                <div style="width: 50%">
-                    photo
-                </div>
+      <section>
+        <div
+          class="container"
+          style="display: flex; gap: 24px; align-items: center"
+        >
+          <div style="width: 50%">
+            <h1 style="font-size: 37px">
+              Rent payments on your custom schedule.
+            </h1>
+            <p>Rent payments on your custom schedule.</p>
+            <div style="display: flex; gap: 24px; align-items: center">
+              <div>photo</div>
+              <div>
+                <h6
+                  style="
+                    color: blue;
+                    margin: 0;
+                    font-size: 1rem;
+                    margin-bottom: 12px;
+                  "
+                >
+                  We do the math for you
+                </h6>
+                <p style="margin: 0">We do the math for you</p>
+              </div>
             </div>
-        </section>
+          </div>
+          <div style="width: 50%">
+            <img
+              src="./images/photo1.jfif"
+              width="100%"
+              style="border-radius: 12px; transform: rotate(-6deg)"
+            />
+          </div>
+        </div>
+      </section>
+      <section style="background-color: aqua;">
+        <div class="container" style="padding-block: 24px;">
+          <div>
+            <h1 style="font-size: 37px">what people are saying</h1>
+          </div>
+          <div style="display: flex; gap: 24px">
+            <div style="width: calc(100% / 3); border-radius: 12px; background-color: white;">
+              <div>photo</div>
+              <div>name</div>
+              <div>text</div>
+            </div>
+            <div style="width: calc(100% / 3); border-radius: 12px; background-color: white;">
+              <div>photo</div>
+              <div>name</div>
+              <div>text</div>
+            </div>
+            <div style="width: calc(100% / 3); border-radius: 12px; background-color: white;">
+              <div>photo</div>
+              <div>name</div>
+              <div>text</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

@@ -1,5 +1,13 @@
-.container {
+body {
+    margin: 0;
+}
+
+.header-container {
     padding-inline: 50px;
+}
+
+.container {
+    padding-inline: 100px;
 }
 
 .nav-links a{
